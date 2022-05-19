@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <title>Registration</title>
+    <link rel="stylesheet" href="">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
+    <!--  icons sheet -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="Registration Form.css">
+    <link rel="icon" type="image/png" href="pic/logo.png" />
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Registration </h2>
+
+        </div>
+        <form action="index.html" class="main-form" onsubmit="return myfun()">
+            <div class="form">
+                <label for="">Username</label>
+                <input type="text" placeholder="Enter your username" id="username" autocomplete="off">
+                <i class="fa fa-exclamation-circle sucess" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle error" aria-hidden="true"></i>
+                <small class="message">error message</small>
+            </div>
+            <div class="form">
+                <label for="">Email</label>
+                <input type="email" placeholder="Enter your valid email" id="email" autocomplete="off">
+                <i class="fa fa-exclamation-circle sucess" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle error" aria-hidden="true"></i>
+                <small class="message">error message</small>
+            </div>
+            <div class="form">
+                <label for="">Password</label>
+                <input type="password" placeholder="Enter your password" class="password" id="password1"
+                    autocomplete="off">
+                <i class="fa fa-exclamation-circle sucess" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle error" aria-hidden="true"></i>
+
+                <small class="message">error message</small>
+            </div>
+            <div class="form">
+                <label for="">Password check</label>
+                <input type="password" placeholder="Please re-enter your password" class="password" id="password2"
+                    autocomplete="off">
+                <i class="fa fa-exclamation-circle sucess" aria-hidden="true"></i>
+                <i class="fa fa-exclamation-circle error" aria-hidden="true"></i>
+                <small class="message">error message</small>
+            </div>
+
+            <button  type="submit" id="submit"> submit</button>
+
+            <div class="login-signup">
+                <span class="text">I Hava Account?
+                    <a href="index.html" class="text login-link">Login  now</a>
+                </span>
+            </div>
+        </form>
+
+    </div>
+
+    <!-- custom js file link  -->
+    <script src="Registration Form.js"></script>
+
+</body>
+
+</html>

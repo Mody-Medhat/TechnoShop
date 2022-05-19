@@ -1,0 +1,101 @@
+:root {
+    --blue: #008cba;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #141a34;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.container {
+    background-color: white;
+    border-radius: 21px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(170, 165, 165, 0.3);
+    width: 437px;
+    max-width: 100%;
+}
+
+.header {
+    color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    background-color: var(--blue);
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 30px;
+}
+
+.main-form {
+    padding: 30px 40px;
+}
+
+.form {
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.form input {
+    border: 2px solid #f0f0f0;
+    border-radius: 4px;
+    font-family: inherit;
+    width: 100%;
+    padding: 12px;
+    display: block;
+    font-size: 14px;
+}
+
+.form i {
+    position: absolute;
+    top: 32px;
+    right: 10px;
+    visibility: hidden;
+
+}
+
+.form small {
+    font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    visibility: hidden;
+
+}
+
+
+
+button {
+    width: 100%;
+    font-family: inherit;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 7px;
+    cursor: pointer;
+    color: white;
+    background-color: var(--blue);
+    outline: none;
+}
+
+button:hover {
+    background-color: rgba(209, 147, 149, 0.2);
+    color: var(--blue);
+}
+
+.login-signup {
+    margin-top: 30px;
+    text-align: center;
+}

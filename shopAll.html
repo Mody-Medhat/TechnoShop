@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop All</title>
+
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- animate.min -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- custom css file link  -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="layout.css">
+    <link rel="stylesheet" href="shopAll.css">
+    <!-- <link rel="stylesheet" href="category.css"> -->
+    <!-- Icon of the paget -->
+    <link rel="icon" type="image/png" href="pic\logo .png" />
+    <!-- Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- jQuery LIBRARY js-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   
+
+</head>
+
+<body>
+
+
+
+    <!-- login form container  -->
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn123">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="#">register now</a></p>
+        </form>
+    </div>
+    <!-- login form container end  -->
+
+    <!-- custom js file link  -->
+
+
+    <!-- Shop All Title -->
+    <div class="page_tit">
+        <div class="heading animate__animated animate__zoomIn">
+            <span>S</span>
+            <span>H</span>
+            <span>O</span>
+            <span>P</span>
+            <span class="space">-</span>
+            <span>A</span>
+            <span>L</span>
+            <span>L</span>
+
+        </div>
+    </div>
+    <!-- Shop All Title end-->
+
+
+
+    <!-- ad side -->
+    <div id="ad" class="con">
+        <div class="col-3 col-s-12" id="banner">
+            <a href="phones_and_tablets.html">
+                <div class="aside">
+                    <img class="side_ad animate__animated animate__zoomInUp" src="pic/i-removebg-preview.png" alt="">
+                    <h2 class="dis">20% OFF </h2>
+                    <p class="iphone">on iPhone 13 Pro</p>
+
+                </div>
+            </a>
+
+            <!-- ad side end -->
+            <!-- ad side -->
+
+            <a href="phones_and_tablets.html">
+                <div class="aside-1">
+                    <img class="side_ad" src="pic/6.png" alt="">
+                    <h2 class="dis">20% OFF </h2>
+                    <p class="iphone">on TVs</p>
+
+                </div>
+            </a>
+
+            <a href="phones_and_tablets.html">
+                <div class="aside-2">
+                    <img id="sw_ad" src="pic/smartWatch.png" alt="">
+                    <h2 class="dis">T5 T55</h2>
+                    <p class="iphone">Smart Watch For <br> Android & Ios</p>
+
+                </div>
+            </a>
+
+            <a href="phones_and_tablets.html">
+                <div class="aside-3">
+                    <img class="hp-p" src="pic/head.png" alt="">
+                    <h2 class="offer">EGP 1,259.00</h2>
+                    <p class="headphone">EGP 1,799.00</p>
+
+                </div>
+            </a>
+
+        </div>
+    </div>
+    <!-- ad side end -->
+
+
+    <!-- Shop All BOXES -->
+    <div class="flex-container">
+
+
+        <!-- Ad banners -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="pic/Listing-Banner-Desktop.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="pic/msi banner.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="pic/huw.png" class="d-block w-100" alt="...">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <!-- Ad banners end -->
+        <!-- Nav for filtering-->
+        <div class="nav">
+            <div id="myBtnContainer nave">
+                <h1>FILTER BY CATEGORY</h1>
+                <button class="btn1 active" onclick="filterSelection('all')" id="showAll"> ALL</button>
+                <button class="btn1" onclick="filterSelection('pc')" id="hide"> Laptops</button>
+                <button class="btn1" onclick="filterSelection('Mobile')" id="hide1"> Mobiles</button>
+                <button class="btn1" onclick="filterSelection('tablet')" id="hide2">Tablets</button>
+                <button class="btn1" onclick="filterSelection('tv')" id="hide3"> TVs</button>
+                <button class="btn1" onclick="filterSelection('Headphone')" id="hide4">Headphones</button>
+                <button class="btn1" onclick="filterSelection('watch')" id="hide5"> Watches</button>
+            </div>
+        </div>
+        <!-- Nav for filtering end-->
+
+        <!-- Shop All BOXES -->
+
+        <div class="box filterDiv tv">
+
+            <div class="bor">
+                <img class="tv_img" src="pic/lg tv.png" alt="">
+            </div>
+            <img class="tv_brand" src="pic/lg.png" alt="">
+            <p class="tv_p">LG LED TV 43 inch LM5500 Series Full HD LED TV A New Level of Full-HD Dynamic Color
+                Enhancer</p>
+            <h4 class="tv_model">Model Number : LF24G35TFWMXZN</h4>
+            <span class="tv_prtice"><span>EGP</span>6,199.00</span>
+                <a class="add_link" href="#">Add to Cart</a>
+            <a class="whish_link" href="#">Add to Wishlist</a>
+        </div>
+
+        <div class="box filterDiv Mobile">
+
+            <div class="bor">
+                <img class="mob_img" src="images/phone_tablets/iphone 13.png" alt="Apple iPhone 13 photo">
+            </div>
+            <img class="tv_brand" src="images/phone_tablets/Apple-logo.png" alt="Apple-logo">
+            <p class="tv_p">Apple iPhone 13 Pro Max with FaceTime - 256GB, 6GB RAM, 4G LTE, Sierra Blue, Single SIM
+                & E-SIM</p>
+            <h4 class="tv_model">Model Number : MND03AA/A</h4>
+            <span class="tv_prtice"><span>EGP</span>28,500.00</span>
+            <section class="add_to_cart">
+            <a class="add_link" href="#">Add to Cart</a>
+            <a class="whish_link" href="#">Add to Wishlist</a>
+            </section> 
+        </div>
+
+
+
+        <div class="box filterDiv Headphone">
+
+            <div class="bor">
+                <img class="head_img" src="pic/Generic hp.png" alt="">
+            </div>
+            <img class="tv_brand" src="pic/sony.png" alt="">
+            <p class="tv_p">Onikuma K10 Gaming Headset with Surround Sound Pro Noise Canceling Gaming Headphones
+                with Mic & RGB LED Light</p>
+            <h4 class="tv_model">Model Number : Sony WH-XB900N</h4>
+            <span class="tv_prtice"><span>EGP</span> 399.99</span>
+            
+            <section class="add_to_cart">
+                <a class="add_link" href="#">Add to Cart</a>
+                <a class="whish_link" href="#">Add to Wishlist</a>
+            </section>
+        </div>
+
+
+
+        <div class="box filterDiv watch">
+
+            <div class="bor">
+                <img class="watch_img" src="pic/samsong sw1.png" alt="">
+            </div>
+            <img class="tv_brand" src="pic/SAM.png" alt="Samsung-logo">
+            <p class="tv_p">Samsung Galaxy Watch4 Classic 46mm Bluetooth Smartwatch, Black - Pre-order</p>
+            <h4 class="tv_model">Model Number : SM-R890NZKAMEA</h4>
+            <span class="tv_prtice"><span>EGP</span> 5838.00</span>
+            <section class="add_to_cart">
+            <a class="add_link" href="#">Add to Cart</a>
+            <a class="whish_link" href="#">Add to Wishlist</a>
+            </section>
+        </div>
+
+
+
+        <div class="box filterDiv pc">
+
+            <div class="bor">
+                <img class="tv_img" src="images/phone_tablets/acer.png" alt="Acer Predator Helios 300">
+            </div>
+            <img class="tv_brand" src="pic/acer.png" alt=" Acer-Logo ">
+            <p class="tv_p">Acer Predator Helios 300 PH315-54-760S Gaming Laptop | Intel i7-11800H | NVIDIA GeForce
+                RTX 3060 Laptop GPU | 15.6" Full HD 144Hz 3ms IPS Display | 16GB DDR4 | 512GB SSD | Killer WiFi 6 |
+                RGB Keyboard</p>
+            <h4 class="tv_model">Model Number : PH315-54-760S</h4>
+            <span class="tv_prtice"><span>EGP</span> 29000.00</span>
+            <section class="add_to_cart">
+                <a class="add_link" href="#">Add to Cart</a>
+                <a class="whish_link" href="#">Add to Wishlist</a>
+            </section>
+        </div>
+
+        <div class="box filterDiv tablet">
+
+            <div class="bor">
+                <img class="tab_img" src="images/phone_tablets/hwpad.png" alt="">
+            </div>
+            <img class="tv_brand" src="images/phone_tablets/Huawei-logo.png" alt="Huawei-logo">
+            <p class="tv_p">HUAWEI MatePad 10.4-inch 2022 Tablet + Keyboard, 2K Display, 7250 mAh Battery, Four
+                large-amplitude speakers, All-round noise cancellation, LTE, 4GB+128GB, Grey</p>
+            <h4 class="tv_model">Model Number : Bach4-l09DK</h4>
+            <span class="tv_prtice"><span>EGP</span> 6399.00</span>
+            <section class="add_to_cart">
+                <a class="add_link" href="#">Add to Cart</a>
+                <a class="whish_link" href="#">Add to Wishlist</a>
+            </section>
+        </div>
+
+        <div class="box filterDiv Mobile">
+            <div class="bor">
+                <img class="mob_img" src="images/phone_tablets/s22 ultra.png" alt="Samsung Galaxy S22 Ultra photo">
+            </div>
+            <img class="tv_brand" src="pic/SAM.png" alt="Samsung-logo">
+            <p class="tv_p">Samsung Galaxy S22 Ultra Dual SIM Phantom Black 12GB RAM 512GB 5G</p>
+            <h4 class="tv_model">Model Number : LF24G35TFWMXZN</h4>
+            <span class="tv_prtice"><span>EGP</span> 28600.00</span>
+            <section class="add_to_cart">
+                <a class="add_link" href="#">Add to Cart</a>
+                <a class="whish_link" href="#">Add to Wishlist</a>
+            </section>
+        </div>
+
+        <div class="box filterDiv Headphone">
+
+            <div class="bor">
+                <img class="head_img" src="pic/logitech hp.png" alt="">
+            </div>
+            <img class="tv_brand" src="pic/logitech-logo.png" alt="">
+            <p class="tv_p">Logitech G PRO X Gaming Headset (2nd Generation) with Blue Voice, DTS Headphone 7.1 and
+                50 mm PRO-G Drivers</p>
+            <h4 class="tv_model">Model Number : LF24G35TFWMXZN</h4>
+            <span class="tv_prtice"><span>EGP</span> 2999.00</span>
+            <section class="add_to_cart">
+                <a class="add_link" href="#">Add to Cart</a>
+                <a class="whish_link" href="#">Add to Wishlist</a>
+            </section>
+            </div>
+
+        <div class="box filterDiv tv">
+            <div class="bor">
+                <img class="tv_img" src="pic/sony tv.png" alt="">
+            </div>
+            <img class="tv_brand" src="pic/sony.png" alt="">
+            <p class="tv_p">Sony 55 inch 4K Ultra HD Smart TV with Remote Control </p>
+            <h4 class="tv_model">Model Number : KD-55XG7005</h4>
+            <span class="tv_prtice"><span>EGP</span> 8399.00</span>
+            <a class="add_link" href="#">Add to Cart</a>
+            <a class="whish_link" href="#">Add to Wishlist</a>
+        </div>
+
+        <!-- Ad -->
+        <div class="ad_width" id="baner">
+            <a href="phones_and_tablets.html">
+                <div class="ad_banner">
+                    <img class="ad" src="pic/lenovo-tab-m10-fhd-plus-gen2-series-hero.png" alt="">
+                    <img class="ad_sam" src="pic/SAM.png" alt="">
+                    <h2 class="dis_t">20% OFF </h2>
+                    <p class="tab">on Tablets from Samsung</p>
+
+                </div>
+            </a>
+        </div>
+        <!-- Ad end -->
+
+        <div class="box filterDiv tablet">
+
+            <div class="bor">
+                <img class="tab_img" src="images/phone_tablets/samtab.png" alt="">
+            </div>
+            <img class="tv_brand" src="pic/SAM.png" alt="Samsung-logo">
+            <p class="tv_p">SAMSUNG Galaxy Tab S7 Plus, Sm-T970,12.4in, 256gb, 8gb Ram, Wifi Only - Mystic Black</p>
+            <h4 class="tv_model">Model Number : SM-T970</h4>
+            <span class="tv_prtice"><span>EGP</span> 2333.00</span>
+            <section class="add_to_cart">
+                <a class="add_link" href="#">Add to Cart</a>
+            <a class="whish_link" href="#">Add to Wishlist</a>
+            </section>
+        </div>
+
+        <div class="box filterDiv pc">
+
+                <div class="bor">
+                    <img class="tv_img" src="images/phone_tablets/msi.png" alt="">
+                </div>
+                <img class="tv_brand" src="pic/MSI-Logo-700x394.png" alt="">
+                <p class="tv_p">MSI GL66 Intel Core i7-11800H Gaming Laptop 15.6in 144Hz FHD 1080p Display, NVIDIA
+                    GeForce RTX 3070,16GB, 512GB SSD, Win10, Black (11UGK-001)</p>
+                <h4 class="tv_model">Model Number : Pulse GL66 11UGK-001</h4>
+                <span class="tv_prtice"><span>EGP</span> 32500.00</span>
+                <section class="add_to_cart">
+                    <a class="add_link" href="#">Add to Cart</a>
+                    <a class="whish_link" href="#">Add to Wishlist</a>
+                </section>
+        </div>
+
+        <div class="box filterDiv Headphone">
+
+            <div class="bor">
+                <img class="head_img" src="pic/logitech hp2.png" alt="">
+            </div>
+            <img class="tv_brand" src="pic/logitech-logo.png" alt="">
+            <p class="tv_p">Logitech G733 LIGHTSPEED Wireless Gaming Headset with suspension headband, LIGHTSYNC
+                RGB, Blue VO!CE mic technology and PRO-G audio drivers</p>
+            <h4 class="tv_model">Model Number : LF24G35TFWMXZN</h4>
+            <span class="tv_prtice"><span>EGP</span> 2750.00</span>
+            <a class="add_link" href="#">Add to Cart</a>
+            <a class="whish_link" href="#">Add to Wishlist</a>
+        </div>
+
+        <div class="box filterDiv tv">
+
+            <div class="bor">
+                <img class="tv_img" src="pic/samsong_1.png" alt="">
+            </div>
+            <img class="tv_brand" src="pic/SAM.png" alt="">
+            <p class="tv_p">Samsung 50 Inch 4K UHD Smart LED TV with Built-in Receiver - UA50AU8000UXEG</p>
+            <h4 class="tv_model">Model Number : LF24G35TFWMXZN</h4>
+            <span class="tv_prtice"><span>EGP</span> 9299.00</span>
+            <a class="add_link" href="#">Add to Cart</a>
+            <a class="whish_link" href="#">Add to Wishlist</a>
+        </div>
+
+
+        <div class="box filterDiv watch">
+
+            <div class="bor">
+                <img class="watch_img" src="pic/apple.png" alt="">
+            </div>
+            <img class="tv_brand" src="images/phone_tablets/Apple-logo.png" alt="Apple-logo">
+            <p class="tv_p">Apple Watch Series 7 GPS, 45mm Midnight Aluminum Case with Midnight Sport Band - Regular
+            </p>
+            <h4 class="tv_model">Model Number : MKN53LL/A</h4>
+            <span class="tv_prtice"><span>EGP</span> 10865.00</span>
+            <a class="add_link" href="#">Add to Cart</a>
+            <a class="whish_link" href="#">Add to Wishlist</a>
+        </div>
+
+        <div class="box filterDiv Mobile">
+
+            <div class="bor">
+                <img class="mob_img" src="images/phone_tablets/hw nova.png" alt="HUAWEI nova 9 Smartphone">
+            </div>
+            <img class="tv_brand" src="images/phone_tablets/Huawei-logo.png" alt="Huawei-logo">
+            <p class="tv_p">HUAWEI nova 9 Smartphone, 50 MP Ultra Vision Camera, 8 GB RAM + 128 GB ROM, Blue</p>
+            <h4 class="tv_model">Model Number : 51096UCU</h4>
+            <span class="tv_prtice"><span>EGP</span> 9888.00</span>
+            <section class="add_to_cart">
+                <a class="add_link" href="#">Add to Cart</a>
+                <a class="whish_link" href="#">Add to Wishlist</a>
+            </section>
+        </div>
+
+
+        <div class="box filterDiv Headphone">
+
+            <div class="bor">
+                <img class="head_img" src="pic/acer hp.png" alt="">
+            </div>
+            <img class="tv_brand" src="pic/acer.png" alt="">
+            <p class="tv_p">Acer Predator Galea 350 Gaming Headset - Micro-casque - canal 7.1 - circum-aural -
+                filaire - USB, jack 3,5mm - noir </p>
+            <h4 class="tv_model">Model Number : LF24G35TFWMXZN</h4>
+            <span class="tv_prtice"><span>EGP</span> 1239..00</span>
+            <a class="add_link" href="#">Add to Cart</a>
+            <a class="whish_link" href="#">Add to Wishlist</a>
+        </div>
+
+        <div class="box filterDiv tv">
+
+            <div class="bor">
+                <img class="tv_img" src="pic/mci tv.png" alt="">
+            </div>
+            <img class="tv_brand" src="pic/MSI-Logo-700x394.png" alt="">
+            <p class="tv_p">MSI MEG381CQR PLUS 37.5" 21:9 175 Hz Curved IPS Monitor</p>
+            <h4 class="tv_model">Model Number : MFR #MEG381CQR PLUS</h4>
+            <span class="tv_prtice"><span>EGP</span> 19000.75</span>
+              <a class="add_link" href="#">Add to Cart</a>
+                <a class="whish_link" href="#">Add to Wishlist</a>
+        </div>
+
+        <div class="box filterDiv Mobile">
+
+            <div class="bor">
+                <img class="mob_img" src="images/phone_tablets/Xiaomi Mi 11.png" alt="Xiaomi Mi 11">
+            </div>
+            <img class="tv_brand" src="images/phone_tablets/Redmi_1S-Logo.wine.png" alt="Xiaomi-Logo">
+            <p class="tv_p">Xiaomi Mi 11 Ultra Dual Sim, 12GB Ram, 512GB, Ceramic Black</p>
+            <h4 class="tv_model">Model Number : M2102K1C</h4>
+            <span class="tv_prtice"><span>EGP</span> 20999.00</span>
+              <a class="add_link" href="#">Add to Cart</a>
+                <a class="whish_link" href="#">Add to Wishlist</a>
+        </div>
+
+        <div class="box filterDiv tablet">
+            <div class="bor">
+                <img class="tab_img" src="images/phone_tablets/ipad.png" alt="">
+            </div>
+            <img class="tv_brand" src="images/phone_tablets/Apple-logo.png" alt="Apple-logo">
+            <p class="tv_p">2021 Apple iPad Pro (12.9-inch, Wi-Fi, 256GB) - Silver (5th Generation)</p>
+            <h4 class="tv_model">Model Number : MHNJ3AB/A</h4>
+            <span class="tv_prtice"><span>EGP</span> 24990.00</span>
+              <a class="add_link" href="#">Add to Cart</a>
+                <a class="whish_link" href="#">Add to Wishlist</a>
+        </div>
+
+        <div class="box filterDiv watch">
+
+            <div class="bor">
+                <img class="watch_img" src="pic/IMILAB.png" alt="">
+            </div>
+            <img class="tv_brand" src="pic/im-logo.png" alt="">
+            <p class="tv_p">IMILAB W11 Smart Watch for Women</p>
+            <h4 class="tv_model">Model Number : R870NZKAMEA</h4>
+            <span class="tv_prtice"><span>EGP</span> 1249.00</span>
+            <a class="add_link" href="#">Add to Cart</a>
+            <a class="whish_link" href="#">Add to Wishlist</a>
+        </div>
+
+        <div class="box filterDiv pc">
+
+            <div class="bor">
+                <img class="tv_img" src="images/phone_tablets/tuf.png" alt="Laptop Gaming TUF">
+            </div>
+            <img class="tv_brand" src="images/phone_tablets/asus.png" alt="asus-logo">
+            <p class="tv_p">Laptop Gaming TUF (Intel® Core™ i5-11300H Processor 3.1 GHz - RAM 8GB DDR4-HARD 512GB
+                M.2 NVMe--VGA RTX 3050-4GB- DISPLAY 15.6 FHD 144HZ- ECLIPSE Grey-OS WIN10)</p>
+            <h4 class="tv_model">Model Number : FX516PC-HN558T</h4>
+            <span class="tv_prtice"><span>EGP</span> 17000.00</span>
+            <section class="add_to_cart">
+                <a class="add_link" href="#">Add to Cart</a>
+                <a class="whish_link" href="#">Add to Wishlist</a>
+            </section>
+        </div>
+
+
+
+
+    </div>
+    <!-- Shop All BOXES end -->
+
+    <!------------------ footer start ---------------------->
+
+
+    <footer class="footer" style="border-radius: 3rem; margin: 2%;" id="footer_">
+        <div class="footer__addr">
+            <h3 class="footer__logo"><span style="color: red">T</span>echno<span style="color: red">S</span>tore</h3>
+        </div>    
+
+        <ul class="footer__nav">
+            <li class="nav__item">
+                <h3 class="nav__title1">Shop</h3>
+                <ul class="nav__ul">
+                    <li><a href="shopAll.html">Shop all</a></li>
+                    <li><a href="Computers.html">Computers</a></li>
+                    <li><a href="phones_and_tablets.html">Tablets & phone</a></li>
+                    <li><a href="Headphone_watch_product .html">Headphones & watch</a></li>
+                    <li><a href="TV.html">T.v & Home Cinema</a></li>
+                </ul>
+            </li>
+
+            <li class="nav__item">
+                <h3 class="nav__title1">Customer Support</h3>
+
+                <ul class="nav__ul">
+                    <li><a href="contactUS.html">Contact Us</a></li>
+                    <li><a href="">Help Center</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="">Careers</a></li>
+
+                </ul>
+            </li>
+
+            <li class="nav__item">
+                <h3 class="nav__title1">Policy</h3>
+
+                <ul class="nav__ul">
+                    <li><a href="">Shipping & Returns</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Payment Methods</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <img class="qr-code" src="pic/qrcode.png" alt="">
+                </ul>
+            </li>
+
+
+        </ul>
+
+        <div class="social">
+
+            <div></div>
+            <a href=""><i class="fa fa-facebook" id="facebook_icon"></i></a>
+            <a href=""><i class="fa fa-twitter" id="twitter_icon"></i></a>
+            <a href=""><i class="fa fa-google" id="google_icon"></i></a>
+            <a href=""><i class="fa fa-instagram" id="instagram_icon"></i></a>
+            <a
+                href="https://www.google.com/maps/place/%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9+%D9%84%D9%84%D8%AA%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%89+%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%D9%87%E2%80%AD/@27.1864334,31.1692457,19.25z/data=!4m8!1m2!2m1!1s%5Bhlum+hsd,'!3m4!1s0x14450bf033efc3d1:0xd8aa6946a4851580!8m2!3d27.186503!4d31.1694976"><i
+                    class="fa fa-map-marker " id="marker_icon"></i></a>
+
+        </div>
+        <div class="legal">
+            <p>&copy; By Techno shop @ 2022</p>
+        </div>
+
+
+    </footer>
+
+
+
+
+
+    <!------------------ footer end ---------------------->
+    <hr class="container" style="width:50%;">
+    <!-- payment section  -->
+    <h4 style="text-align: center;">We accept the following paying methods </h4>
+    <div class="container-pay">
+
+        <ul class="row" style="  padding: 10px;  list-style: none;">
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/brand-amex.png">
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/brand-chinaunionpay.png">
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/brand-jcb.png">
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/Visa.png">
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/brand-mastercard.png">
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/Diners.png">
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/Discover.png">
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/PayPal.png">
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+
+    <!-- payment section  -->
+
+    <!----------- js code ----------->
+
+    <script type="text/javascript">
+      
+
+    </script>
+
+
+    <!----------------------navbar---------------------->
+
+
+    <div class="fixed-top" id="nav_fixed" style="z-index: 1;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-bottom: 0%;">
+            <div class="container-fluid">
+                <a class="navbar-brand" style="color: white" href="index.html"> &nbsp;
+
+                    <h3 class="d-inline-block align-top" style="color: black; padding: 0%; font-weight: bold;"><span
+                            style="color: red">T</span>ECHNO<span style="color: red">S</span>TORE</h3>
+
+                    &nbsp;
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" onclick="hidsidebar()"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="Computers.html" style="color:#4b4c4b ;">
+                                    <h4>💻Computer</h4> <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="phons_taplet.html" style="color:#4b4c4b ;">
+                                    <h4>📱Tablets &amp;&amp; phone </h4>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="TV.html" style="color:#4b4c4b ;">
+                                    <h4>&nbsp;📺TV</h4>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Headphone_watch_product .html" style="color:#4b4c4b ;">
+                                    <h4>🎧Headphone &amp;&amp;⌚watch</h4>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="shopAll.html" style="color:#4b4c4b ;">
+                                    <h4>🛍️Shop all</h4>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                        <!--deleted -->
+
+                    </ul>
+                    <form class="d-flex" style="margin-right: 1%;">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="
+                        font-size: 18px;">
+                        <samp id="btn1">
+                            <button class="btn btn btn-primary" type="submit">
+                                <i class="fa fa-search" style="font-size:24px"></i>
+                            </button>
+                        </samp>
+                    </form>
+
+                    <a class="navbar-brand" id="login-btn" href="#">
+                        <i class="fa fa-user" aria-hidden="true" style="font-size:24px; padding: 5px;"></i>
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <i class="fa fa-shopping-cart" aria-hidden="true" style="font-size:24px; padding: 5px;"></i>
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+       <!-- Aroww to top   -->
+       <button onclick="topFunction()" id="top_Arrow" title="Go to top">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- custom js file link  -->
+    <script src="script.js"></script>
+    <script src="query.js"></script>
+
+</body>
+
+</html>

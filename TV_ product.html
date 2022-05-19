@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <!------------ css style sheet -------------->
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="layout.css">
+    <!-- Icon of the paget -->
+    <link rel="icon" type="image/png" href="pic\logo .png" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+    
+    <!-- font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Products</title>
+</head>
+
+<body>
+    <!-- Aroww to top   -->
+    <button onclick="topFunction()" id="top_Arrow" title="Go to top">
+        <i class="fa fa-arrow-up" aria-hidden="true"></i>
+    </button>
+
+    <!--------------product code------------------->
+
+    <h1 class="heading">
+        <span>T</span>
+        <span>V</span>
+        
+       
+    </h1>
+
+    <center>
+        <div id="myBtnContainer">
+            <h1>FILTER BY PRICE</h1>
+            <button class="btn1 active" onclick="filterSelection('all')"> ALL</button>
+            <button class="btn1" onclick="filterSelection('below_10')"> Below 10</button>
+            <button class="btn1" onclick="filterSelection('range_10_30')"> EGP 10.000 : EGP 30.000</button>
+            <button class="btn1" onclick="filterSelection('above_30')"> Above_30</button>
+        </div>
+    </center>
+    <div class="container">
+
+        <div class="filterDiv below_10">
+            <div class="product ">
+                <div class="product-card">
+                    <h2 class="name">LG LED TV 43 inch</h2>
+                    <span class="price">EGP 6,199.00</span>
+                    <a class="popup-btn">Quick View</a>
+                    <img src="images/TV/D-1_preview_rev_1.png" class="product-img" alt="">
+                </div>
+                <div class="popup-view">
+                    <div class="popup-card">
+                        <a><i class="fa fa-times close-btn"></i></a>
+                        <div class="product-img">
+                            <img src="images/TV/product1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h2> LG LED TV 43 inch<br><span></span></h2>
+                            <p style="text-align: left;">LG LED TV 43 inch LM5500 Series Full HD LED TV A New Level of Full-HD
+                                Dynamic Color Enhancer
+                                Dolby Audio™ A Movie-like Sound Experience
+                                Choose, Connect, and Enjoy
+                                Simple yet Sophisticated Design</p>
+                            <span class="price">EGP 6,199.00</span>
+                            <a href="#" class="add-cart-btn">Add to Cart</a>
+                            <a href="#" class="add-wish">Add to Wishlist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="filterDiv range_10_30">
+            <div class="product">
+                <div class="product-card">
+                    <h2 class="name">LG NanoCell TV 50 inch</h2>
+                    <span class="price">EGP 10,499.00</span>
+                    <a class="popup-btn">Quick View</a>
+                    <img src="images/TV/2_preview_rev_1.png" class="product-img" alt="">
+                </div>
+                <div class="popup-view">
+                    <div class="popup-card">
+                        <a><i class="fa fa-times close-btn"></i></a>
+                        <div class="product-img">
+                            <img src="images/TV/2_preview_rev_1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h2> LG NanoCell TV  <br><span>LG</span></h2>
+                            <p>LG NanoCell TV 50 inch NANO75 Series, 4K Active HDR, WebOS Smart ThinQ AI Real 4K NANO Cell for Pure coloer with Nano Color , Nano Accuracy
+                                α5 AI Processor 4k with AI 4K upscaling
+                                ThinQ AI webOS Smart TV with Magic Remote
+                                True Cinema Experience suported with Active HDR , Film Maker Mode , AI Sound
+                                Unlimited Gameplay with HGiG , ALLM , HDMI 2.0 eARC</p>
+                            <span class="price">EGP 10,499.00</span>
+                            <a href="#" class="add-cart-btn">Add to Cart</a>
+                            <a href="#" class="add-wish">Add to Wishlist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="filterDiv above_30">
+            <div class="product">
+                <div class="product-card">
+                    <h2 class="name">LG QNED TV 65 Inch</h2>
+                    <span class="price">EGP 52,499.00</span>
+                    <a class="popup-btn">Quick View</a>
+                    <img src="images/TV/D-1_preview_rev_1.png" class="product-img" alt="">
+                </div>
+                <div class="popup-view">
+                    <div class="popup-card">
+                        <a><i class="fa fa-times close-btn"></i></a>
+                        <div class="product-img">
+                            <img src="images/TV/D-1_preview_rev_1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>LG QNED TV <br><span>LG</span></h2>
+                            <p>LG QNED TV 65 Inch QNED95 series, Cinema Screen Design 8K Cinema HDR WebOS Smart ThinQ AI Mini LED
+                            </p>
+                            <span class="price">EGP 52,499.00</span>
+                            <a href="#" class="add-cart-btn">Add to Cart</a>
+                            <a href="#" class="add-wish">Add to Wishlist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv range_10_30">
+            <div class="product">
+                <div class="product-card">
+
+                    <h2 class="name">LG NanoCell TV 50 Inch</h2>
+                    <span class="price">EGP 10,900.00</span>
+                    <a class="popup-btn">Quick View</a>
+                    <img src="images/TV/4_preview_rev_1.png" class="product-img" alt="">
+                </div>
+                <div class="popup-view">
+                    <div class="popup-card">
+                        <a><i class="fa fa-times close-btn"></i></a>
+                        <div class="product-img">
+                            <img src="images/TV/4_preview_rev_1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>LG NanoCell TV<br><span>LG</span></h2>
+                            <p>LG NanoCell TV 50 Inch NANO80 Series Cinema Screen Design 4K Active HDR webOS Smart with ThinQ AI Local Dimming LG NanoCell technology for pure colours in 4K Ultra HD
+                                Local dimming for bolder contrast
+                                Fast Quad Core Processor 4K
+                                HDR for impressive cinema, sport and gaming
+                                Smart LG technology, LG AI ThinQ
+                                webOS Smart TV with Pointing and Wheel Control Magic Remote</p>
+                            <span class="price">EGP 10,900.00</span>
+                            <a href="#" class="add-cart-btn">Add to Cart</a>
+                            <a href="#" class="add-wish">Add to Wishlist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv below_10">
+            <div class="product">
+                <div class="product-card">
+                    <h2 class="name">LG UHD 4K TV 43 Inch</h2>
+                    <span class="price">EGP 8,299.00</span>
+                    <a class="popup-btn">Quick View</a>
+                    <img src="images/TV/5_preview_rev_1.png" class="product-img" alt="">
+                </div>
+                <div class="popup-view">
+                    <div class="popup-card">
+                        <a><i class="fa fa-times close-btn"></i></a>
+                        <div class="product-img">
+                            <img src="images/TV/5_preview_rev_1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h2> LG UHD 4K TV<br><span>LG</span></h2>
+                            <p>LG UHD 4K TV 43 Inch UP75 Series, 4K Active HDR WebOS Smart AI ThinQ Real 4K UHD picture, colour and depth
+                                α5 AI Processor 4k with AI 4K upscaling
+                                ThinQ AI webOS Smart TV with Magic Remote
+                                True Cinema Experience suported with Active HDR , Film Maker Mode , AI Sound
+                                Unlimited Gameplay with HGiG , ALLM , HDMI 2.0 eARC</p>
+                            <span class="price">EGP 8,299.00</span>
+                            <a href="#" class="add-cart-btn">Add to Cart</a>
+                            <a href="#" class="add-wish">Add to Wishlist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv above_30">
+            <div class="product">
+                <div class="product-card">
+                    <h2 class="name">LG G2 65 inch evo Gallery Edition</h2>
+                    <span class="price">EGP 37,314.00</span>
+                    <a class="popup-btn">Quick View</a>
+                    <img src="images/TV/6_preview_rev_1.png" class="product-img" alt="">
+                </div>
+                <div class="popup-view">
+                    <div class="popup-card">
+                        <a><i class="fa fa-times close-btn"></i></a>
+                        <div class="product-img">
+                            <img src="images/TV/6_preview_rev_1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h2> LG G2 65 inch <br><span>LG</span></h2>
+                            <p>LG G2 65 inch evo Gallery Edition LG OLED evo Gallery Edition, SELF-LIT OLED 4K
+                                Bightness Booster Max for up to 30% brighter picture
+                                α9 Gen5 AI processor, Dynamic Tone Mapping Pro
+                                Flush-fit wall mount Gallery design
+                                Dolby Vision IQ with Precision Detail, Dolby Atmos</p>
+                            <span class="price">EGP 37,314.00</span>
+                            <a href="#" class="add-cart-btn">Add to Cart</a>
+                            <a href="#" class="add-wish">Add to Wishlist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="filterDiv range_10_30">
+            <div class="product">
+                <div class="product-card">
+                    <h2 class="name">NanoCell 50NANO796QA</h2>
+                    <span class="price">EGP 15.500.00</span>
+                    <a class="popup-btn">Quick View</a>
+                    <img src="images/TV/7_preview_rev_1.png" class="product-img" alt="">
+                </div>
+                <div class="popup-view">
+                    <div class="popup-card">
+                        <a><i class="fa fa-times close-btn"></i></a>
+                        <div class="product-img">
+                            <img src="images/TV/7_preview_rev_1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>NanoCell <br><span>LG</span></h2>
+                            <p>NanoCell 50NANO796QA Pure Colors in Real 4K
+                                NanoCell Technology
+                                LG α5 Gen5 AI Processor 4K
+                                ThinQ AI</p>
+                            <span class="price">EGP 15.500.00</span>
+                            <a href="#" class="add-cart-btn">Add to Cart</a>
+                            <a href="#" class="add-wish">Add to Wishlist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="filterDiv range_10_30">
+            <div class="product">
+                <div class="product-card">
+                    <h2 class="name">UHD 4K TV</h2>
+                    <span class="price">EGP 20.800.00</span>
+                    <a class="popup-btn">Quick View</a>
+                    <img src="images/TV/8_preview_rev_1.png" class="product-img" alt="">
+                </div>
+                <div class="popup-view">
+                    <div class="popup-card">
+                        <a><i class="fa fa-times close-btn"></i></a>
+                        <div class="product-img">
+                            <img src="images/TV/8_preview_rev_1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h2> UHD 4K TV<br><span>LG</span></h2>
+                            <p>Real 4K
+                                Slim design
+                                [α5 Gen5 AI Processor] for enhanced viewing experience
+                                [ThinQ AI & WebOS] for personalized settings</p>
+                            <span class="price">EGP 20.800.00</span>
+                            <a href="#" class="add-cart-btn">Add to Cart</a>
+                            <a href="#" class="add-wish">Add to Wishlist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <div class="filterDiv below_10">
+            <div class="product">
+                <div class="product-card">
+                    <h2 class="name">LG UHD 4K TV</h2>
+                    <span class="price">EGP 8,399.00</span>
+                    <a class="popup-btn">Quick View</a>
+                    <img src="images/TV/9_preview_rev_1.png" class="product-img" alt="">
+                </div>
+                <div class="popup-view">
+                    <div class="popup-card">
+                        <a><i class="fa fa-times close-btn"></i></a>
+                        <div class="product-img">
+                            <img src="images/TV/9_preview_rev_1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h2> LG UHD 4K TV<br><span>LG</span></h2>
+                            <p>LG UHD 4K TV 43 Inch UP77 Series, Cinema Screen Design 4K Active HDR WebOS Smart AI ThinQ Real 4K UHD picture, colour and depth
+                                α5 AI Processor 4k with AI 4K upscaling
+                                ThinQ AI webOS Smart TV with Magic Remote
+                                True Cinema Experience suported with Active HDR , Film Maker Mode , AI Sound
+                                Unlimited Gameplay with HGiG , ALLM , HDMI 2.0 eARC</p>
+                            <span class="price">EGP 8,399.00</span>
+                            <a href="#" class="add-cart-btn">Add to Cart</a>
+                            <a href="#" class="add-wish">Add to Wishlist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="filterDiv range_10_30">
+            <div class="product">
+                <div class="product-card">
+                    <h2 class="name">LG UHD 4K TV 65 Inch</h2>
+                    <span class="price">EGP 13,999.00</span>
+                    <a class="popup-btn">Quick View</a>
+                    <img src="images/TV/10_preview_rev_1.png" class="product-img" alt="">
+                </div>
+                <div class="popup-view">
+                    <div class="popup-card">
+                        <a><i class="fa fa-times close-btn"></i></a>
+                        <div class="product-img">
+                            <img src="images/TV/10_preview_rev_1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h2> LG UHD 4K TV<br><span>LG</span></h2>
+                            <p>LG UHD 4K TV 65 Inch UP81 Series, Cinema Screen Design 4K Active HDR WebOS Smart AI ThinQ Real 4K UHD picture, colour and depth
+                                α5 AI Processor 4k with AI 4K upscaling
+                                ThinQ AI webOS Smart TV with Magic Remote
+                                True Cinema Experience suported with Active HDR , Film Maker Mode , AI Sound
+                                Unlimited Gameplay with HGiG , ALLM , HDMI 2.0 eARC</p>
+                            <span class="price">EGP 13,999.00</span>
+                            <a href="#" class="add-cart-btn">Add to Cart</a>
+                            <a href="#" class="add-wish">Add to Wishlist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="filterDiv above_30">
+            <div class="product">
+                <div class="product-card">
+                    <h2 class="name">LG OLED TV 48 Inch</h2>
+                    <span class="price">EGP 32,498.00</span>
+                    <a class="popup-btn">Quick View</a>
+                    <img src="images/TV/11_preview_rev_1.png" class="product-img" alt="">
+                </div>
+                <div class="popup-view">
+                    <div class="popup-card">
+                        <a><i class="fa fa-times close-btn"></i></a>
+                        <div class="product-img">
+                            <img src="images/TV/11_preview_rev_1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h2>LG OLED TV<br><span>LG</span></h2>
+                            <p>LG OLED TV 48 Inch C1 Series, Cinema Screen Design 4K Cinema HDR WebOS Smart AI ThinQ Pixel Dimming LG 4K SELF-LIT OLED evo – true brilliance in clarity of content
+                                Perfect Color ( 100% colour fidelity ) Eye Comfort Display
+                                α9 Gen4 AI Processor 4k with AI 4K upscaling
+                                ThinQ AI webOS Smart TV with NFC Magic Remote
+                                True Cinema Experience suported with Dolby Vision IQ | Dolby Atmos
+                                Unlimited Gameplay with GSYNC , AMD FreeSync Premium , LG VRR , HGiG HDMI 2.1 , Game Optimiser </p>
+                            <span class="price">EGP 32,498.00</span>
+                            <a href="#" class="add-cart-btn">Add to Cart</a>
+                            <a href="#" class="add-wish">Add to Wishlist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv above_30">
+            <div class="product">
+                <div class="product-card">
+                    <h2 class="name">LG OLED TV 65 Inch</h2>
+                    <span class="price">EGP 48,990.90</span>
+                    <a class="popup-btn">Quick View</a>
+                    <img src="images/TV/12_preview_rev_1.png" class="product-img" alt="">
+                </div>
+                <div class="popup-view">
+                    <div class="popup-card">
+                        <a><i class="fa fa-times close-btn"></i></a>
+                        <div class="product-img">
+                            <img src="images/TV/12_preview_rev_1.png" alt="">
+                        </div>
+                        <div class="info">
+                            <h2> LG OLED TV <br><span>LG</span></h2>
+                            <p>LG OLED TV 65 Inch G1 Series, Gallery Design 4K Cinema HDR WebOS Smart AI ThinQ Pixel Dimming
+                                LG 4K SELF-LIT OLED evo – true brilliance in clarity of content
+                                Perfect Color ( 100% colour fidelity ) Eye Comfort Display
+                                α9 Gen4 AI Processor 4k with AI 4K upscaling
+                                ThinQ AI webOS Smart TV with NFC Magic Remote
+                                True Cinema Experience suported with Dolby Vision IQ | Dolby Atmos
+                                Unlimited Gameplay with GSYNC , AMD FreeSync Premium , LG VRR , HGiG HDMI 2.1 , Game Optimiser</p>
+                            <span class="price">EGP 48,990.90</span>
+                            <a href="#" class="add-cart-btn">Add to Cart</a>
+                            <a href="#" class="add-wish">Add to Wishlist</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+    <!------------------ nav bar start ---------------------->
+ 
+    <!----------------------navbar---------------------->
+
+
+    <div class="fixed-top" id="nav_fixed" style="z-index: 1;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-bottom: 0%;">
+            <div class="container-fluid">
+                <a class="navbar-brand" style="color: white" href="index.html"> &nbsp;
+
+                    <h3 class="d-inline-block align-top" style="color: black; padding: 0%; font-weight: bold;"><span
+                            style="color: red">T</span>ECHNO<span style="color: red">S</span>TORE</h3>
+
+                    &nbsp;
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" onclick="hidsidebar()"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="Computers.html" style="color:#4b4c4b ;">
+                                    <h4>💻Computer</h4> <span class="sr-only">(current)</span>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="phons_taplet.html" style="color:#4b4c4b ;">
+                                    <h4>📱Tablets &amp;&amp; phone </h4>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="TV.html" style="color:#4b4c4b ;">
+                                    <h4>&nbsp;📺TV</h4>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="Headphone_watch_product .html" style="color:#4b4c4b ;">
+                                    <h4>🎧Headphone &amp;&amp;⌚watch</h4>
+                                </a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="shopAll.html" style="color:#4b4c4b ;">
+                                    <h4>🛍️Shop all</h4>
+                                </a>
+                            </li>
+
+                        </ul>
+
+                        <!--deleted -->
+
+                    </ul>
+                    <form class="d-flex" style="margin-right: 1%;">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="
+                        font-size: 18px;">
+                        <samp id="btn1">
+                            <button class="btn btn btn-primary" type="submit">
+                                <i class="fa fa-search" style="font-size:24px"></i>
+                            </button>
+                        </samp>
+                    </form>
+
+                    <a class="navbar-brand" id="login-btn" href="#">
+                        <i class="fa fa-user" aria-hidden="true" style="font-size:24px; padding: 5px;"></i>
+                    </a>
+                    <a class="navbar-brand" href="#">
+                        <i class="fa fa-shopping-cart" aria-hidden="true" style="font-size:24px; padding: 5px;"></i>
+                    </a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+
+<!------------------ nav bar end ---------------------->
+    <!-- login form container  -->
+    <div class="login-form-container">
+        <i class="fa fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn123">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have and account? <a href="Registration Form.html">register now</a></p>
+        </form>
+    </div>
+    <!------------------ footer start ---------------------->
+
+
+
+    <!------------------ footer start ---------------------->
+
+
+    <footer class="footer" style="border-radius: 3rem; margin: 2%;" id="footer_">
+        <div class="footer__addr">
+            <h3 class="footer__logo"><span style="color: red">T</span>echno<span style="color: red">S</span>tore</h3>
+        </div>
+
+        <ul class="footer__nav">
+            <li class="nav__item">
+                <h3 class="nav__title1">shop</h3>
+                <ul class="nav__ul">
+                    <li><a href="shopAll.html">Shop all</a></li>
+                    <li><a href="Computers.html">Computers</a></li>
+                    <li><a href="phones_and_tablets.html">Tablets & phone</a></li>
+                    <li><a href="Headphone_watch_product .html">Headphones & watch</a></li>
+                    <li><a href="TV.html">T.v & Home Cinema</a></li>
+                </ul>
+            </li>
+
+
+            <li class="nav__item">
+                <h3 class="nav__title1">Customer Support</h3>
+
+                <ul class="nav__ul">
+                    <li><a href="contactUS.html">Contact Us</a></li>
+                    <li><a href="">Help Center</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="">Careers</a></li>
+
+                </ul>
+            </li>
+
+            <li class="nav__item">
+                <h3 class="nav__title1">Policy</h3>
+
+                <ul class="nav__ul">
+                    <li><a href="">Shipping & Returns</a></li>
+                    <li><a href="">Terms & Conditions</a></li>
+                    <li><a href="">Payment Methods</a></li>
+                    <li><a href="">FAQ</a></li>
+                    <img class="qr-code" src="pic/qrcode.png" alt="">
+                </ul>
+            </li>
+
+
+        </ul>
+
+        <div class="social">
+
+            <div></div>
+            <a href=""><i class="fa fa-facebook" id="facebook_icon"></i></a>
+            <a href=""><i class="fa fa-twitter" id="twitter_icon"></i></a>
+            <a href=""><i class="fa fa-google" id="google_icon"></i></a>
+            <a href=""><i class="fa fa-instagram" id="instagram_icon"></i></a>
+            <a
+                href="https://www.google.com/maps/place/%D8%A7%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D8%B5%D8%B1%D9%8A%D8%A9+%D9%84%D9%84%D8%AA%D8%B9%D9%84%D9%85+%D8%A7%D9%84%D8%A7%D9%84%D9%83%D8%AA%D8%B1%D9%88%D9%86%D9%89+%D8%A7%D9%84%D8%A3%D9%87%D9%84%D9%8A%D9%87%E2%80%AD/@27.1864334,31.1692457,19.25z/data=!4m8!1m2!2m1!1s%5Bhlum+hsd,'!3m4!1s0x14450bf033efc3d1:0xd8aa6946a4851580!8m2!3d27.186503!4d31.1694976"><i
+                    class="fa fa-map-marker " id="marker_icon"></i></a>
+
+        </div>
+        <div class="legal">
+            <p>&copy; By Techno Store @ 2022</p>
+        </div>
+
+
+    </footer>
+
+
+
+    <!------------------ footer end ---------------------->
+    <hr class="container" style="width:50%;">
+    <!-- payment section  -->
+    <h4 style="text-align: center;">We accept the following paying methods </h4>
+    <div class="container-pay">
+
+        <ul class="row" style="  padding: 10px;  list-style: none;">
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/brand-amex.png">
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/brand-chinaunionpay.png">
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/brand-jcb.png">
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/Visa.png">
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/brand-mastercard.png">
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/Diners.png">
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/Discover.png">
+                </a>
+            </li>
+            <li class="col">
+                <a href="#">
+                    <img src="mopile&tablets/PayPal.png">
+                </a>
+            </li>
+
+        </ul>
+
+    </div>
+
+    <!-- payment section  -->
+   
+   <script src="productes.js"></script>
+
+
+</body>
+
+</html>
